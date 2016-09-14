@@ -6,5 +6,10 @@ public class ProceduralExample {
 		// System is a class
 		// out is a field
 		// println is a method of that field
+		
+		int lmao = 3;
+		int ayy = 32;
+		
+		System.out.println(lmao + ayy);
 	}
 }
