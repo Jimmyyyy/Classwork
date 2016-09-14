@@ -7,11 +7,11 @@ public class CommitExample {
 		System.out.println(one + two);
 		
 		if (one < 30) {
-			System.out.println("Lmao")
+			System.out.println("Lmao");
 		}
 		
 		else {
-			System.out.println("faksdjhdj")
+			System.out.println("faksdjhdj");
 		}
 	}
 }
