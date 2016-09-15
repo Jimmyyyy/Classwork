@@ -7,9 +7,8 @@ public class ProceduralExample {
 		// out is a field
 		// println is a method of that field
 		
-		int lmao = 3;
-		int ayy = 32;
-		
-		System.out.println(lmao + ayy);
+		String[] names = {"jimmy" , "jisiuiasduio"};
+		String[] years = {"lmao", "asdasd", "yeuis"};
+		System.out.println(names[0] + " is not a " + years[2]);
 	}
 }
