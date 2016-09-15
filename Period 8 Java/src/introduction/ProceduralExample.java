@@ -7,9 +7,7 @@ public class ProceduralExample {
 		// out is a field
 		// println is a method of that field
 		
-		int lmao = 3;
-		int ayy = 32;
-		
-		System.out.println(lmao + ayy);
+		String[] names = {"Jimmy", "asds", "sda"};
+		System.out.println("Ayyyy waddup my name is " + names[0]);
 	}
 }
