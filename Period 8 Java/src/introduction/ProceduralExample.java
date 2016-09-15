@@ -1,5 +1,5 @@
 package introduction;
-
+import  java.util.Scanner;
 public class ProceduralExample {
 	public static void main(String[] args) {
 		System.out.println("Hello World!");
@@ -14,6 +14,10 @@ public class ProceduralExample {
 		String[] names2323 = {"jimmy" , "jisiuiasduio"};
 		String[] years = {"senior", "freshman", "junior"};
 		System.out.println(names[0] + " is not a " + years[2]);
-
+		
+		Scanner thing = new Scanner(System.in);
+		
+		String input = thing.next();
+		
 	}
 }
