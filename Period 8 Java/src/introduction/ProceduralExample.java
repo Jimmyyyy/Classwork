@@ -7,7 +7,13 @@ public class ProceduralExample {
 		// out is a field
 		// println is a method of that field
 		
+
 		String[] names = {"Jimmy", "asds", "sda"};
 		System.out.println("Ayyyy waddup my name is " + names[0]);
+
+		String[] names2323 = {"jimmy" , "jisiuiasduio"};
+		String[] years = {"senior", "freshman", "junior"};
+		System.out.println(names[0] + " is not a " + years[2]);
+
 	}
 }
