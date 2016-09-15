@@ -19,5 +19,7 @@ public class ProceduralExample {
 		
 		String input = thing.next();
 		
+		System.out.println("ayyy ur name is" + input);
+		
 	}
 }
