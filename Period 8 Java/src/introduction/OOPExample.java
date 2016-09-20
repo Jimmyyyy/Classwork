@@ -11,5 +11,7 @@ public class OOPExample {
 		john.talk();
 		Sophomore josh = new Sophomore("Josh");
 		josh.abc();
+		
+		((Student)josh).talk();
 	}
 }
