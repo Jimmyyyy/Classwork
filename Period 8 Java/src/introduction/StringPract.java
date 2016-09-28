@@ -1,5 +1,5 @@
 package introduction;
-import java.util.Scanner;;
+import java.util.Scanner;
 public class StringPract {
 
 	public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class StringPract {
 		if (text1.equals(text2)) {
 			System.out.println("The texts are equal");
 		}
-///////////////////////////////////////////////////////////////////////////////////////
+
 		print(text1);
 		print(text2);
 		
@@ -22,5 +22,5 @@ public class StringPract {
 	public static void print(String s) {
 		System.out.println(s);
 	}
-///////////////////////////////////////////////////////////////////////////////////////
+	
 }
