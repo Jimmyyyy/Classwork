@@ -4,7 +4,7 @@ public class JimmyHello implements Chatbot {
 	private String helloResponse;
 	private boolean inHelloLoop;
 	
-	private String[] calmResponse = {"Let's say something else", "You already said hello, did you forget?"};
+	private String[] calmResponse = {"Let's say something else", "Let's keep the conversation going"};
 	private String[] angryResponse = {"Please stop repeating yourself","Do not say hello ever again"};
 	
 	private int helloCount;
@@ -42,17 +42,17 @@ public class JimmyHello implements Chatbot {
 	}
 	
 	
-	public boolean isTriggered(String userInput) {
-		if (JimmyMain.findKeyword(userInput, "hello", 0) >= 0) {
-			return true;
-		}
-		String[] triggers = {"hi","hey"};
+	public  boolean isTriggered(String userInput) {
+		String[] triggers = {"hello","hi","hey"};
 		for(int i = 0; i< triggers.length; i++) {
 			if (JimmyMain.findKeyword(userInput,triggers[i],0)
 					>= 0) {
 				return true;
 			}
+
+		}
 		return false;
+
 	}
 }
 	

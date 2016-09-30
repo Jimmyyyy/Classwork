@@ -1,5 +1,6 @@
 package chatbot;
 
+
 public class JimmySchool implements Chatbot {
 
 	private boolean inSchoolLoop;

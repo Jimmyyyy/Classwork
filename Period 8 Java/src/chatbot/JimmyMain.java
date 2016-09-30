@@ -1,8 +1,8 @@
-package ChatBot;
+package chatbot;
 
 import java.util.Scanner;
 
-public class AhmedMain {
+public class JimmyMain {
 		
 		static String response;
 		static boolean inMainLoop;
@@ -10,6 +10,7 @@ public class AhmedMain {
 		static String user;
 		//list all chatbots available under this class
 		static Chatbot school;
+		static Chatbot hello ;
 				
 		public static void main(String[] args) {
 			//demonstrateStringMethods();
@@ -40,6 +41,12 @@ public class AhmedMain {
 					inMainLoop = false;
 					//go to school's talk method
 					school.talk();
+				}
+				else if(hello.isTriggered(response)){
+					//exit while loop
+					inMainLoop = false;
+					//go to school's talk method
+					hello.talk();
 				}
 				else{
 					print("Whatchu sayin boi?");
@@ -120,7 +127,8 @@ public class AhmedMain {
 		public static void createField() {
 			input = new Scanner(System.in);
 			user = "";
-			school = new AhmedSchool();
+			school = new JimmySchool();
+			hello = new JimmyHello();
 		}
 
 		public static void demonstrateStringMethods(){
