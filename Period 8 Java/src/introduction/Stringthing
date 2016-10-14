@@ -5,25 +5,21 @@ public class string {
 	public static void main (String[] args) {
 		System.out.println("Enter username");
 		String username = input.nextLine();
-		if (username.equals("whatever")) {
+		if (username.equals("jimmy")) {
 			System.out.println("Enter your password"); 
-			int attempts = 0;
-			int noMore = 3;
-			while (attempts < 3) {
+			int attempts = 3;
+			while (attempts > 0) {
 				String password = input.nextLine();
 				if (password.equals("test")) {
 					System.out.println("ayy you did it");
 					return;
 				}
 				else {
-					attempts++;
-					noMore--;
-					System.out.println("You have " + noMore + " attempts left");
-				}
-				
+					attempts--;
+					System.out.println("You have " + attempts + " attempts left");
+				}		
 			}
 			System.out.println("password is invalid");
-			
 		}
 		else {
 			System.out.println("You entered wrong username, contact administrator");
