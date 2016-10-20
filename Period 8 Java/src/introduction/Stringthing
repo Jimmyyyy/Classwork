@@ -1,11 +1,16 @@
 import java.util.Scanner;
 
-public class string {
+public class test1me {
 	static Scanner input = new Scanner(System.in);
+	
+	public static String waitForEntry() {
+		return input.nextLine();
+	}
+	
 	public static void main (String[] args) {
 		System.out.println("Enter username");
 		String username = input.nextLine();
-		if (username.equals("jimmy")) {
+		if (username.equals("test_user")) {
 			System.out.println("Enter your password"); 
 			int attempts = 3;
 			while (attempts > 0) {
